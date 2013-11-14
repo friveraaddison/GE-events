@@ -1,0 +1,181 @@
+/* CSS RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+.clearFix {clear:both;line-height:0;display:block;}
+body {font-size:11px;color:#333;font-family:Arial, Geneva, sans-serif;}
+h1 {font-size:340%;color:#8dc63f;font-family:'GE-Inspira', Arial, Geneva, sans-serif;}
+.modal-container h1 {margin:40px 0 30px;}
+h2 {font-size:150%;margin-bottom:5px;}
+h3 {font-size:100%;margin-bottom:30px;}
+.modal-label {font-size:130%;padding-bottom:10px;text-transform:uppercase;font-family:'GE-Inspira-XBold', Arial, Geneva, sans-serif;}
+.txt-green {color:#8dc63f;}
+.section-divider {width:546px;margin:0 0 20px;border-top:1px dotted #999;}
+/******** Buttons ********/
+a.button-generic, a.button-wide, a.button-small, a.button-fancy-remove {float:left;height:18px;color:#8dc63f;padding-top:18px;text-align:center;text-decoration:none;text-transform:uppercase;background:url(../images/buttons-sprite.png) transparent 0 0 no-repeat;}
+a.button-generic {width:180px;background-position:0 0;}
+a.button-generic:hover {width:180px;color:#FFF;background-position:0 -72px;}
+a.button-generic:active {width:180px;color:#8dc63f;background-position:0 -36px;}
+a.button-generic-active {color:#FFF;background-position:0 -72px;}
+a.button-generic-active:hover {color:#8dc63f;background-position:0 -36px;}
+a.button-generic-active:active {color:#FFF;background-position:0 0;background-position:0 -72px;}
+a.button-wide {width:240px;background-position:0 -108px;}
+a.button-wide:hover {width:240px;color:#FFF;background-position:0 -180px;}
+a.button-wide:active {width:240px;color:#8dc63f;background-position:0 -144px;}
+a.button-small {height:18px;padding-top:9px;margin-top:-1px;text-align:center;text-transform:capitalize;width:103px;background-position:0 -360px;font-family:'GE-Inspira-Bold', Arial, Geneva, sans-serif;}
+a.button-small:hover {width:103px;color:#FFF;background-position:0 -400px;}
+a.button-small:active {width:103px;color:#8dc63f;background-position:0 -440px;}
+a.button-fancy-remove {width:200px;background-position:0 -230px;}
+a.button-fancy-remove span {margin-left:-26px;}
+a.button-fancy-remove:hover {width:200px;background-position:0 -270px;}
+a.button-fancy-remove:active {width:200px;background-position:0 -310px;}
+.button-edit, .button-remove, .button-add, .button-calendar, .button-24hr, .button-up, .button-down, .button-plus {width:38px;height:38px;cursor:pointer;display:block;background:url(../images/edit-icons-sprite.png) transparent 0 0 no-repeat;}
+.button-edit {background-position:0 0;}
+.button-edit:hover {background-position:-40px 0;}
+.button-edit:active {background-position:-80px 0;}
+.button-remove {background-position:0 -40px;}
+.button-remove:hover {background-position:-40px -40px;}
+.button-remove:active {background-position:-80px -40px;}
+.button-add {background-position:0 -80px;}
+.button-add:hover {background-position:-40px -80px;}
+.button-add:active {background-position:-80px -80px;}
+.button-calendar {background-position:0 -120px;}
+.button-calendar:hover {background-position:-40px -120px;}
+.button-calendar:active {background-position:-80px -120px;}
+.button-24hr {background-position:0 -160px;}
+.button-24hr:hover {background-position:-40px -160px;}
+.button-24hr:active {background-position:-80px -160px;}
+.button-up {background-position:0 -200px;}
+.button-up:hover {background-position:-40px -200px;}
+.button-up:active {background-position:-80px -200px;}
+.button-down {background-position:0 -240px;}
+.button-down:hover {background-position:-40px -240px;}
+.button-down:active {background-position:-80px -240px;}
+.button-plus {background-position:0 -280px;}
+.button-plus:hover {background-position:-40px -280px;}
+.button-plus:active {background-position:-80px -280px;}
+/******** Form Elements ********/
+/** Single Line Input Field **/
+.styled-input, .styled-input .input-corner, .styled-input input, .styled-textarea, .styled-textarea textarea, .styled-textarea .textarea-corner {position:relative;top:0;}
+.styled-input input {background:none;border:none;padding-left:7px;margin-top:-1px;}
+.styled-input, .styled-input .input-corner, .styled-textarea, .textarea-corner {background:url(../images/input-bar-bg.png) transparent left top no-repeat;}
+.styled-input, .styled-input input {width:92%;height:24px;}
+.styled-input {background-position: left 0;margin:0;z-index:1;}
+.styled-input .input-corner {position:absolute;
+right:0;width:10px;height:24px;background-position: right 0;background-color:#FFF;z-index:2;}
+.styled-textarea textarea {background:none;border:none;margin-top:2px;width:490px!important;height:48px!important;padding:5px 0 5px 8px;}
+.styled-textarea, .styled-textarea textarea {width:92%;height:63px;}
+.styled-textarea {background-position:0 -60px;;z-index:1;}
+.styled-textarea .textarea-corner {position:absolute;right:0;width:10px;height:63px;background-position: right -60px;background-color:#FFF;z-index:2;}
+/* Check Boxes */
+.clearfix:before, .clearfix:after {content: "";display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+.prettycheckbox,
+.prettyradio {display: inline-block;padding:0;margin:0;}
+.prettycheckbox a,
+.prettyradio a{width: 30px;height: 30px;background: url(../images/prettyCheckable-blue.png) top left no-repeat;display: block;float: left;cursor: pointer;margin:0;}
+.prettycheckbox.green a,
+.prettyradio.green a{ background-image: url(../images/prettyCheckable-green.png);}
+.prettycheckbox.red a,
+.prettyradio.red a{ background-image: url(../images/prettyCheckable-red.png);}
+.prettycheckbox.yellow a,
+.prettyradio.yellow a{ background-image: url(../images/prettyCheckable-yellow.png);}
+.prettycheckbox.gray a,
+.prettyradio.gray a{ background-image: url(../images/prettyCheckable-gray.png);}
+.prettyradio a {background-position: 0 -120px;}
+.prettycheckbox a:focus,
+.prettyradio a:focus {outline: 0 none;}
+.prettycheckbox a:focus{background-position: 0 -30px;}
+.prettyradio a:focus{background-position: 0 -150px;}
+.prettycheckbox a.checked{ background-position: 0 -60px; }
+.prettyradio a.checked { background-position: 0 -180px; }
+.prettycheckbox a.checked:focus{ background-position: 0 -90px; }
+.prettyradio a.checked:focus { background-position: 0 -210px; }
+.prettycheckbox label,
+.prettyradio label {display: block;float: left;margin: 8px 5px;cursor: pointer;}
+.prettycheckbox.disabled a,
+.prettyradio.disabled a,
+.prettycheckbox.disabled label,
+.prettyradio.disabled label{cursor:not-allowed;}
+.prettycheckbox.disabled a {background-position: 0 -240px;}
+.prettyradio.disabled a {background-position: 0 -270px;}
+.mandatory-check {background-position:-30px -240px!important;}
+.mandatory-radio {background-position:-30px -270px!important;}
+/* Select Boxes */
+.customSelect, .customSelectSmall, .customSelectWide {padding:6px 10px;height:12px;}
+.customSelect, .customSelectSmall, .customSelectWide {background:url(../images/select-box-sprite.png) transparent 0 0 no-repeat;}
+.customSelectSmall {background-position:0 -120px;}
+.customSelectWide {background-position:0 -240px;}
+.styled-select-container {float:left;}
+.customSelect, .styled-select{width:230px;}
+.customSelectSmall {width:58px;}
+.customSelectWide {width:483px;}
+.customSelect.customSelectHover {background-position:0 -30px;}
+.customSelect.customSelectFocus {background-position:0 -30px;}
+.customSelect.customSelectOpen {background-position:0 -60px;}
+.customSelect.customSelectAlert {background-position:0 -90px;}
+.customSelectSmall.customSelectSmallHover {background-position:0 -150px;}
+.customSelectSmall.customSelectSmallFocus {background-position:0 -150px;}
+.customSelectSmall.customSelectSmallOpen {background-position:0 -180px;}
+.customSelectSmall.customSelectSmallAlert {background-position:0 -210px;}
+.customSelectWide.customSelectWideHover {background-position:0 -270px;}
+.customSelectWide.customSelectWideFocus {background-position:0 -270px;}
+.customSelectWide.customSelectWideOpen {background-position:0 -300px;}
+.customSelectWide.customSelectWideAlert {background-position:0 -330px;}
+option {padding:7px;background:#FFF;}
+option:active, option:focus{background:#FFF;}
+option:hover{background:#8ac13e;}
+/* Date Picker */
+/* Toggle Switch */
+.toggle-radio-switch {float:left;width:68px;height:23px;padding-top:4px;margin:0 20px 20px 5px;background-position:0 -60px;}
+.toggle-radio-switch .radio-switch-slider {float:left;margin-top:-15px;width:35px;height:23px;background-position:0 -90px;z-index:2;}
+.toggle-radio-switch span {float:left;width:50%;text-align:center;cursor:pointer;z-index:1;}
+.radio-toggle-w-label {height:44px;}
+.radio-toggle-w-label .textfield-left-label {font-weight:bold;}
+.right-float {float:right;margin-right:15px;}
+.left-float {float:left;}
+.all-button-icons a {float:left;margin:0 7px;}
+.button-container {
+	height:24px;
+	margin-bottom:0;
+}
+.modal-element, .modal-element-mid, .modal-element-short {
+	float:left;
+	width:100%;
+}
+.modal-element {
+	margin-bottom: 30px;
+}
+.modal-element-mid {
+	margin-bottom: 20px;
+}
+.modal-element-short {
+	font-size:12px;
+	margin-bottom: 10px;
+}
+.modal-element div {
+	float:left;
+	min-width:115px;
+}
+.input-container {
+	width:68%;
+}
+.input-container-2 {
+	width:62%;
+}
+p {
+	clear:both;
+}
+.modal-container {
+	width:400px;
+	margin-left:10px;
+}
+.label-left {
+	margin:5px 20px 0 0;
+}
+.main-label {
+	margin-bottom:5px;
+}
+.centered-buttons {
+	width:103px;
+	margin:0 auto;
+}

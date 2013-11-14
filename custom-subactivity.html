@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--<link rel="shortcut icon" href="favicon.ico" />-->
+<title>GE - Events</title>
+<link rel="stylesheet" type="text/css" href="css/main-styles.css" />
+<link rel="stylesheet" type="text/css" href="css/ge-fonts.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.3.custom.css" />
+<link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<script src="scripts/jquery-ui-1.10.3.custom.js"></script>
+<script src='scripts/custom-select.js'></script>
+<script src="scripts/checkable.js"></script>
+<script src="colorbox/jquery.colorbox-min.js"></script>
+<link rel="stylesheet" href="colorbox/colorbox.css">
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+.template-links {
+	float:right;
+	margin-right:50px;
+	display:inline;
+}
+.template-links a {
+	padding:0 10px;
+	color:#FFF;
+	font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+	
+
+<!-- Start Content -->
+<div class="content-container-modal">
+
+	<!-- Start Form -->
+	<form>
+		<div class="form-container alt-form-style alt-form-accordian">
+
+			<h1>Custom Subactivity Field</h1>
+
+			<div class="toggle-buttons-all">
+				<div class="button-container"><a href="#" class="button-small form-element-open-all">Open All</a></div>
+				<div class="button-container"><a href="#" class="button-small form-element-close-all">Close All</a></div>
+				<div class="button-container"><a href="#" class="button-small form-element-auto-toggle">Auto Close</a></div>
+			</div>
+
+			<!-- Section -->
+			<div class="form-section form-section-alert">
+				<div class="section-label"><span>Subactivity Name</span></div>
+				<div class="form-element-toggle"></div>
+
+
+				<!-- Element -->
+				<div class="form-element">
+					<!-- error message - required field -->
+					<div class="error-required-notice">Please add an activity name</div>
+					<div class="input-container">
+						<div class="styled-input error-input"><span class="input-corner"></span><input type="text" /></div>
+					</div>
+				</div><!-- End Element -->
+
+
+			</div><!-- End Section -->
+
+			<!-- Section -->
+			<div class="form-section form-section-alert">
+				<div class="section-label"><span>Description</span></div>
+				<div class="form-element-toggle"></div>
+
+
+				<!-- Element -->
+				<div class="form-element">
+					<!-- error message - required field -->
+					<div class="error-required-notice">Please add an activity name</div>
+					<div class="styled-textarea error-textarea">
+						<span class="textarea-corner"></span>
+						<textarea rows="4"></textarea>
+					</div>
+				</div><!-- End Element -->
+
+
+			</div><!-- End Section -->
+
+			<!-- Section -->
+			<div class="form-section">
+				<div class="section-label"><span>Form Type</span></div>
+				<div class="form-element-toggle"></div>
+
+
+				<!-- Element -->
+				<div class="form-element">
+					<div class="styled-select-container">
+						<select class="styled-select-x-wide">
+							<option value="1" selected="selected">Checkboxes</option>
+							<option value="2">Option</option>
+							<option value="3">Option</option>
+							<option value="4">Option</option>
+							<option value="5">Option</option>
+							<option value="6">Option</option>
+							<option value="7">Option</option>
+							<option value="8">Option</option>
+							<option value="9">Option</option>
+							<option value="10">Option</option>
+						</select>
+					</div>
+				</div><!-- End Element -->
+
+
+			</div><!-- End Section -->
+
+			<!-- Section -->
+			<div class="form-section">
+				<div class="section-label"><span>Specify Options</span></div>
+				<div class="form-element-toggle"></div>
+
+
+				<!-- Element -->
+				<div class="form-element full-width">
+					<div class="specify-options-labels">
+						<div class="specify-options-default-label">Default</div>
+						<div class="specify-options-title-label">Title</div>
+						<div class="specify-options-description-label">Description</div>
+						<div class="specify-options-max-label">Max. #</div>
+						<div class="specify-options-select-label">Select</div>
+					</div>
+
+					<!-- Options Element -->
+					<div class="specify-options-element">
+						<div class="specify-options-default">
+							<div class="checkbox-container"><input type="radio" class="styled-radio" value="1" name="answer"/></div>
+						</div>
+						<div class="specify-options-title">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-description">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-max">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-select">
+							<div class="checkbox-container"><input type="checkbox" class="styled-checkbox" value="1" name="answer"/></div>
+						</div>
+					</div><!-- End Options Element -->
+
+					<!-- Options Element -->
+					<div class="specify-options-element">
+						<div class="specify-options-default">
+							<div class="checkbox-container"><input type="radio" class="styled-radio" value="1" name="answer"/></div>
+						</div>
+						<div class="specify-options-title">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-description">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-max">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-select">
+							<div class="checkbox-container"><input type="checkbox" class="styled-checkbox" value="1" name="answer"/></div>
+						</div>
+					</div><!-- End Options Element -->
+
+					<!-- Options Element -->
+					<div class="specify-options-element">
+						<div class="specify-options-default">
+							<div class="checkbox-container"><input type="radio" class="styled-radio" value="1" name="answer"/></div>
+						</div>
+						<div class="specify-options-title">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-description">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-max">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-select">
+							<div class="checkbox-container"><input type="checkbox" class="styled-checkbox" value="1" name="answer"/></div>
+						</div>
+					</div><!-- End Options Element -->
+
+					<!-- Options Element -->
+					<div class="specify-options-element">
+						<div class="specify-options-default">
+							<div class="checkbox-container"><input type="radio" class="styled-radio" value="1" name="answer"/></div>
+						</div>
+						<div class="specify-options-title">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-description">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-max">
+							<div class="input-container">
+								<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+							</div>
+						</div>
+						<div class="specify-options-select">
+							<div class="checkbox-container"><input type="checkbox" class="styled-checkbox" value="1" name="answer"/></div>
+						</div>
+					</div><!-- End Options Element -->
+
+					<!-- Options Element -->
+					<div class="specify-options-edit-icons">
+						<div class="specify-options-plus"><a href="#" class="button-plus"></a></div>
+						<div class="specify-options-remove"><a href="#" class="button-remove"></a></div>
+						<div class="specify-options-down"><a href="#" class="button-down"></a></div>
+						<div class="specify-options-up"><a href="#" class="button-up"></a></div>
+					</div><!-- End Options Element -->
+
+				</div><!-- End Element -->
+
+
+			</div><!-- End Section -->
+
+			<!-- Section -->
+			<div class="form-section">
+				<div class="section-label"><span>Subactivity Name</span></div>
+				<div class="form-element-toggle"></div>
+
+
+				<!-- Element -->
+				<div class="form-element">
+					<div class="input-container">
+						<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+					</div>
+				</div><!-- End Element -->
+
+
+			</div><!-- End Section -->
+
+			<!-- Section -->
+			<div class="form-section">
+				<div class="section-label two-section-labels">
+					<span>Set a minimum number of options</span>
+					<span class="two-section-labels-right">Set a maximum number of options</span>
+				</div>
+				<div class="form-element-toggle"></div>
+
+
+				<!-- Element -->
+				<div class="form-element">
+					<div class="input-container short-input-40">
+						<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+					</div>
+					<div class="input-container short-input-40">
+						<div class="styled-input"><span class="input-corner"></span><input type="text" /></div>
+					</div>
+				</div><!-- End Element -->
+
+
+			</div><!-- End Section -->
+
+			<!-- Section -->
+			<div class="form-section form-section-alt">
+				<div class="section-label-alt">
+					<span>Set a minimum number of options</span>
+					<div class="toggle-radio-container">
+						<div class="toggle-radio-switch" id="toggle1">
+							<span>am</span>
+							<span>pm</span>
+							<div class="radio-switch-slider"></div>
+						</div>
+					</div>
+				</div>
+				<div class="form-element-toggle"></div>
+
+
+			</div><!-- End Section -->
+
+
+		</form>
+
+
+	</div><!-- END Content -->
+
+
+	<div class="submit-button-area">
+		<div class="button-container"><a href="#" class="button-wide modal-button">Return to specify activity</a></div>
+		<div class="button-container"><a href="#" class="button-wide modal-button">Save</a></div>
+	</div>
+
+</div><!-- END Form -->
+
+
+<script type="text/javascript">
+	var accordianNavActive = false;
+	var progressBulletsActive = true;
+</script>
+<script src="scripts/ge-events.js" ></script>
+
+
+</body>
+</html>

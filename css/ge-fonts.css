@@ -1,0 +1,127 @@
+
+/******** Font List ********/
+@font-face {
+	font-family: "GE-Inspira";
+	src: url("../fonts/geins-webfont.eot");
+	src: local("☺"),
+	url("../fonts/geins-webfont.woff") format("woff"),
+	url("../fonts/geins-webfont.ttf") format("truetype"),
+	url("../fonts/geins-webfont.svg#GEInspiraRegular") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GE-Inspira-Book";
+	src: url("../fonts/geinsbookalt-webfont.eot");
+	src: local("☺"),
+	url("../fonts/geinsbookalt-webfont.woff") format("woff"),
+	url("../fonts/geinsbookalt-webfont.ttf") format("truetype"),
+	url("../fonts/geinsbookalt-webfont.svg#GEInspiraItalic") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GE-Inspira-Med";
+	src: url("../fonts/geinsmed-webfont.eot.eot");
+	src: local("☺"),
+	url("../fonts/geinsmed-webfont.woff") format("woff"),
+	url("../fonts/geinsmed-webfont.ttf") format("truetype"),
+	url("../fonts/geinsmed-webfont.svg#GEInspiraBold") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GE-Inspira-Bold";
+	src: url("../fonts/geinsbol-webfont.eot");
+	src: local("☺"),
+	url("../fonts/geinsbol-webfont.woff") format("woff"),
+	url("../fonts/geinsbol-webfont.ttf") format("truetype"),
+	url("../fonts/geinsbol-webfont.svg#GEInspiraBoldItalic") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GE-Inspira-XBold";
+	src: url("../fonts/geinsextbol-webfont.eot");
+	src: local("☺"),
+	url("../fonts/geinsextbol-webfont.woff") format("woff"),
+	url("../fonts/geinsextbol-webfont.ttf") format("truetype"),
+	url("../fonts/geinsextbol-webfont.svg#GEInspiraBoldItalic") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GE-Inspira-Italic";
+	src: url("../fonts/geinsita-webfont.eot");
+	src: local("☺"),
+	url("../fonts/geinsita-webfont.woff") format("woff"),
+	url("../fonts/geinsita-webfont.ttf") format("truetype"),
+	url("../fonts/geinsita-webfont.svg#GEInspiraBoldItalic") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+/* Font List For Android */
+@media screen and (max-device-width: 480px) {
+	@font-face {
+		font-family: "GE-Inspira";
+		src: url("../fonts/geins-webfont.woff") format("woff"),
+		url("../fonts/geins-webfont.ttf") format("truetype"),
+		url("../fonts/geins-webfont.svg#GEInspiraRegular") format("svg");
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: "GE-Inspira-Book";
+		src: url("../fonts/geinsbookalt-webfont.woff") format("woff"),
+		url("../fonts/geinsbookalt-webfont.ttf") format("truetype"),
+		url("../fonts/geinsbookalt-webfont.svg#GEInspiraItalic") format("svg");
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: "GE-Inspira-Med";
+		src: url("../fonts/geinsmed-webfont.woff") format("woff"),
+		url("../fonts/geinsmed-webfont.ttf") format("truetype"),
+		url("../fonts/geinsmed-webfont.svg#GEInspiraBold") format("svg");
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: "GE-Inspira-Bold";
+		src: url("../fonts/geinsbol-webfont.woff") format("woff"),
+		url("../fonts/geinsbol-webfont.ttf") format("truetype"),
+		url("../fonts/geinsbol-webfont.svg#GEInspiraBoldItalic") format("svg");
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: "GE-Inspira-XBold";
+		src: url("../fonts/geinsextbol-webfont.woff") format("woff"),
+		url("../fonts/geinsextbol-webfont.ttf") format("truetype"),
+		url("../fonts/geinsextbol-webfont.svg#GEInspiraBoldItalic") format("svg");
+		font-style: normal;
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: "GE-Inspira-Italic";
+		src: url("../fonts/geinsita-webfont.woff") format("woff"),
+		url("../fonts/geinsita-webfont.ttf") format("truetype"),
+		url("../fonts/geinsita-webfont.svg#GEInspiraBoldItalic") format("svg");
+		font-style: normal;
+		font-weight: normal;
+	}
+}
+/******** Main Font Styles ********/
+em, i {
+	font-style:italic;
+}
+strong, b, .bold {
+	font-weight:bold;
+}
+/******** Specific Fonts ********/
+.inspira {font-family:'GE-Inspira', Arial, Geneva, sans-serif;}
+.inspira-book {font-family:'GE-Inspira-Book', Arial, Geneva, sans-serif;}
+.inspira-med {font-family:'GE-Inspira-Med', Arial, Geneva, sans-serif;}
+.inspira-italic {font-family:'GE-Inspira-Italic', Arial, Geneva, sans-serif;}
+.inspira-bold, .boldThis {font-family:'GE-Inspira-Bold', Arial, Geneva, sans-serif;}
+.inspira-xbold, .xBoldThis {font-family:'GE-Inspira-XBold', Arial, Geneva, sans-serif;}
